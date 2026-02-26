@@ -83,12 +83,14 @@ _This only shows resolvable domains_
 ***
 
 ### Semgrep SAST Findings
-<content src="{{Output}}/js/semgrep-{{Workspace}}.json" />
+**Header**: Rule ID | File | Line | Message
+<content src="{{Output}}/js/semgrep-{{Workspace}}.txt" />
 
 ***
 
 ### Vulnerable JS Libraries (Retire.js)
-<content src="{{Output}}/js/retirejs-{{Workspace}}.json" />
+**Header**: Component | Version | Severity | CVE | File
+<content src="{{Output}}/js/retirejs-{{Workspace}}.txt" />
 
 ***
 
