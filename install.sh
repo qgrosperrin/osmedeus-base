@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# curl -fsSL https://raw.githubusercontent.com/osmedeus/osmedeus-base/master/install.sh | bash
-INSTALL_EXT_BINARY="https://raw.githubusercontent.com/osmedeus/osmedeus-base/main/data/scripts/install-external-binaries.sh"
+# curl -fsSL https://raw.githubusercontent.com/qgrosperrin/osmedeus-base/master/install.sh | bash
+INSTALL_EXT_BINARY="https://raw.githubusercontent.com/qgrosperrin/osmedeus-base/main/data/scripts/install-external-binaries.sh"
 
 # global stuff
 BASE_PATH="$HOME/osmedeus-base"
@@ -129,7 +129,7 @@ fi
 
 if [[ $(uname -p) == "arm" || $(uname -p) == "aarch64" ]]; then
     echo -e "\033[1;34m[!] An ARM-based machine has been identified. The installation will now proceed with the ARM-specific script.\033[0m"
-    bash <(curl -fsSL https://raw.githubusercontent.com/osmedeus/osmedeus-base/master/install-arm.sh)
+    bash <(curl -fsSL https://raw.githubusercontent.com/qgrosperrin/osmedeus-base/master/install-arm.sh)
     exit 1
 fi
 announce "\033[1;34mSet Data Directory:\033[1;37m $DATA_PATH \033[0m"
