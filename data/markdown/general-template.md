@@ -70,6 +70,38 @@ _This only shows resolvable domains_
 
 ***
 
+## 🔬 JavaScript Analysis
+
+### Endpoints Extracted from JS
+<content src="{{Output}}/js/endpoints-{{Workspace}}.txt" shorten=true />
+
+***
+
+### Secrets Found in JS
+<content src="{{Output}}/js/secrets-{{Workspace}}.txt" />
+
+***
+
+### Semgrep SAST Findings
+<content src="{{Output}}/js/semgrep-{{Workspace}}.json" />
+
+***
+
+### Vulnerable JS Libraries (Retire.js)
+<content src="{{Output}}/js/retirejs-{{Workspace}}.json" />
+
+***
+
+### Deep Secret Scan (Trufflehog)
+<content src="{{Output}}/js/trufflehog-{{Workspace}}.txt" />
+
+***
+
+### Nuclei JS Vulnerability Findings
+<content src="{{Output}}/js/nuclei-js-{{Workspace}}.txt" />
+
+***
+
 ## 🔍 Port Scan
 
 <content src="{{Output}}/portscan/open-ports.txt" />
