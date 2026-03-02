@@ -30,7 +30,7 @@ _This only shows resolvable domains_
 <content src="{{Output}}/fingerprint/beautify-{{Workspace}}-http.txt" />
 
 ### NTLM Info
-<content src="{{Output}}/fingerprint/{{Output}}/fingerprint/{{Workspace}}-ntlm-info.txt" />
+<content src="{{Output}}/ntlm/{{Workspace}}-ntlm-info.txt" />
 
 ***
 
@@ -98,6 +98,13 @@ _This only shows resolvable domains_
 <content src="{{Output}}/js/trufflehog-{{Workspace}}.txt" />
 
 ***
+
+
+### Deep Secret Scan (Trufflehog)
+<content src="{{Output}}/js/titus-{{Workspace}}.txt" />
+
+***
+
 
 ### Nuclei JS Vulnerability Findings
 <content src="{{Output}}/js/nuclei-js-{{Workspace}}.txt" />
