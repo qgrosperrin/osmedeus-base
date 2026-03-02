@@ -77,6 +77,12 @@ _This only shows resolvable domains_
 
 ***
 
+### Fingerprinting
+_Based on the list of endpoints above_
+<content src="{{Output}}/js/fingerprint-{{Workspace}}.txt" shorten=true />
+
+***
+
 ### Secrets Found in JS
 <content src="{{Output}}/js/secrets-{{Workspace}}.txt" />
 
