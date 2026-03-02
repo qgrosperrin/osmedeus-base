@@ -100,7 +100,7 @@ _This only shows resolvable domains_
 ***
 
 
-### Deep Secret Scan (Trufflehog)
+### Deep Secret Scan (Titus)
 <content src="{{Output}}/js/titus-{{Workspace}}.txt" />
 
 ***
