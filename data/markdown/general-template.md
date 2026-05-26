@@ -56,6 +56,31 @@ _This only shows resolvable domains_
 
 ***
 
+## 🛡️ Subdomain Takeover & DNS Issues
+
+### Nuclei DNS Checks
+<content src="{{Output}}/sto/sto-{{Workspace}}-dns.txt" />
+
+### Nuclei Takeover Checks
+<content src="{{Output}}/sto/sto-{{Workspace}}-content.txt" />
+
+### BadDNS - Comprehensive DNS Takeover & Misconfiguration Detection
+_Checks for dangling CNAME/NS/MX records, NSEC walking, zone transfers, DMARC/SPF/MTA-STS misconfigurations, wildcard DNS, and hijackable references_
+<content src="{{Output}}/sto/baddns-{{Workspace}}.json" />
+
+***
+
+## 🔐 Cryptographic Secrets & Credential Scanning
+
+### Badsecrets - Known/Weak Cryptographic Secrets
+_Detects known or weak secrets in ASP.NET ViewStates, signed cookies (Flask, Django, Rails, Express, Laravel, Rack, Yii2), JWTs, Telerik keys, Apache Shiro, IBM LTPA tokens, JSF ViewStates, Symfony signed URLs, and more_
+<content src="{{Output}}/secrets/badsecrets-{{Workspace}}.txt" />
+
+### Trufflehog - Entropy-Based Secret Scanning
+<content src="{{Output}}/secrets/trufflehog-{{Workspace}}.txt" />
+
+***
+
 ## 🕷️ Spider Content
 
 **Header**: URL | HTTP Status Code | Response size | Redirect location
@@ -129,5 +154,3 @@ _Based on the list of endpoints above_
 <content src="{{Output}}/archive/{{Workspace}}-archive-table.txt" shorten=true />
 
 ***
-
-
